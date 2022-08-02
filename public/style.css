@@ -5,16 +5,16 @@
 .char {
   width: 100px;
   height: 100px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(16, 69, 155, 0.5);
 }
 
 body {
   text-align: center;
-  background-color: rgb(42, 29, 126);
+  background-color: #191a1b;
 }
 
 #words {
-  width: 100%;
+  justify-content: center;
 }
 
 .word {
@@ -27,4 +27,40 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 64px;
+}
+
+#keyboard {
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #191a1b;
+  text-align: center;
+}
+#keyboard div {
+  margin: 5px 0;
+}
+#space {
+  width: 184px;
+}
+#keyboard label {
+  margin-top: 50px;
+  font-family: serif;
+  text-decoration: underline;
+}
+#keyboard input {
+  box-shadow: 2px 2px 2px #434d5d;
+}
+#keyboard input[type="text"] {
+  margin-top: 20px;
+  border: 1px solid #434d5d;
+  border-radius: 4px;
+  box-shadow: none;
+}
+input {
+  all: unset;
+
+  font-size: 24px;
+  font-weight: 400;
+  padding: 15px;
+  background-color: #434d5d;
 }
